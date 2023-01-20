@@ -1,0 +1,29 @@
+display_name: Random Color Generator
+package_name: color-generator
+maintainer:
+  name: Andrew
+  email: aandrew.me@proton.me
+
+priority: optional
+section: x11
+installed_size: 6604
+essential: false
+icon: assets/icon.png
+
+postinstall_scripts:
+  - echo `Installed my awesome app`
+postuninstall_scripts:
+  - echo `Surprised Pickachu face`
+
+keywords:
+  - Random
+  - Color
+  - Test
+  - Application
+
+generic_name: Random Color Generator
+
+categories:
+  - Utilities
+
+startup_notify: true
